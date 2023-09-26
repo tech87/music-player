@@ -21,7 +21,6 @@ body {
   background-color: #D6EDFF;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
-  z-index: 10;
 }
 
 .img-container {
@@ -110,12 +109,58 @@ h3 {
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
   .player-container {
-    width: 95vw;
+    width: 90%; 
   }
 
-  .img-container {
-    left: 29px;
+   .img-container {
+    left: 20px;
+  } 
+
+  h2 {
+    font-size: 20px;
   }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .player-controls {
+    top: -10px;
+    left: 90px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .player-container {
+    width: 90%; 
+  }
+
+   .img-container {
+    left: 13px;
+  } 
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .player-controls {
+    top: -10px;
+    left: 80px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .player-container {
+    width: 90%; 
+  }
+
+   .img-container {
+    left: 25px;
+  } 
 
   h2 {
     font-size: 20px;
@@ -130,4 +175,3 @@ h3 {
     left: 100px;
   }
 }
-
